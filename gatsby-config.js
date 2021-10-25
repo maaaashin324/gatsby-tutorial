@@ -4,8 +4,6 @@ module.exports = {
     title: "guideline-demo",
   },
   plugins: [
-    "gatsby-transformer-remark",
-    "gatsby-plugin-mdx",
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -14,8 +12,10 @@ module.exports = {
       },
       __key: "pages",
     },
+    "gatsby-transformer-remark",
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
     "gatsby-plugin-mdx",
+    "gatsby-transformer-sharp",
   ],
 };
