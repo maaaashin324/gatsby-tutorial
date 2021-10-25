@@ -13,9 +13,9 @@ module.exports = {
       __key: "pages",
     },
     "gatsby-transformer-remark",
+    "gatsby-plugin-mdx",
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
-    "gatsby-plugin-mdx",
     "gatsby-transformer-sharp",
   ],
 };
